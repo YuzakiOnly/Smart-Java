@@ -37,7 +37,7 @@ const teamMembers = [
     specialty: "Powering seamless integrations",
   },
   {
-    name: "Julio Dwi Susilo",
+    name: "Julio Dwi Susiloolo",
     role: "Content Creator",
     image: "/images/julioo.png",
     specialty: "Orchestrating team excellence",
@@ -290,7 +290,7 @@ export default function Team() {
             </div>
           </div>
         </section>
-        
+
         {/* CTA Section - Improved */}
         <section className="py-32 px-6">
           <div className="max-w-4xl mx-auto">
