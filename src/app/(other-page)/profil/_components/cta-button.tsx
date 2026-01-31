@@ -20,7 +20,7 @@ export default function CTASection() {
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a
                         href="/roles"
-                        className="px-10 py-4 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-xl font-bold hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 hover:-translate-y-0.5"
+                        className="px-10 py-4 bg-linear-to-r from-emerald-500 to-emerald-600 text-white rounded-xl font-bold hover:from-emerald-600 hover:to-emerald-700 transition-all shadow-lg shadow-emerald-500/25 hover:shadow-xl hover:shadow-emerald-500/30 hover:-translate-y-0.5"
                     >
                         Pilih Role & Mulai
                     </a>

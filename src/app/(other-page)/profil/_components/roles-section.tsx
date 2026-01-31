@@ -20,7 +20,7 @@ export default function RolesSection() {
 
                 <div className="grid lg:grid-cols-2 gap-8">
                     {/* Receptionist */}
-                    <div className="group p-10 rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border-2 border-slate-800/80 hover:border-emerald-500/40 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-emerald-500/10">
+                    <div className="group p-10 rounded-2xl bg-linear-to-br from-slate-900/80 to-slate-900/40 border-2 border-slate-800/80 hover:border-emerald-500/40 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-emerald-500/10">
                         <div className="flex items-start justify-between mb-6">
                             <div className="text-5xl group-hover:scale-110 transition-transform">
                                 🏨
@@ -54,7 +54,7 @@ export default function RolesSection() {
                             <div className="space-y-3">
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -72,7 +72,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -90,7 +90,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -108,7 +108,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -149,7 +149,7 @@ export default function RolesSection() {
                     </div>
 
                     {/* Chef */}
-                    <div className="group p-10 rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border-2 border-slate-800/80 hover:border-orange-500/40 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-orange-500/10">
+                    <div className="group p-10 rounded-2xl bg-linear-to-br from-slate-900/80 to-slate-900/40 border-2 border-slate-800/80 hover:border-orange-500/40 transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-orange-500/10">
                         <div className="flex items-start justify-between mb-6">
                             <div className="text-5xl group-hover:scale-110 transition-transform">
                                 👨‍🍳
@@ -183,7 +183,7 @@ export default function RolesSection() {
                             <div className="space-y-3">
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-orange-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -201,7 +201,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-orange-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -219,7 +219,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-orange-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -237,7 +237,7 @@ export default function RolesSection() {
                                 </div>
                                 <div className="flex items-start gap-3">
                                     <svg
-                                        className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5"
+                                        className="w-5 h-5 text-orange-400 shrink-0 mt-0.5"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
