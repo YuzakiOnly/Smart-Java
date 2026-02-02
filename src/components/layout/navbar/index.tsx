@@ -51,7 +51,7 @@ export default function Navbar() {
             Mulai
           </Link>
 
-          <ThemeToggle/>
+          {/* <ThemeToggle/> */}
         </div>
       </div>
     </nav>

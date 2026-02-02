@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import Image from "next/image";
-import { teamMembers } from "@/lib/data/team-data";
+import { teamMembers } from "@/lib/data/team";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -111,7 +111,7 @@ export default function TeamSection() {
                                 </div>
 
                                 <p className="absolute text-sm sm:text-base max-w-40 sm:max-w-56 z-10 px-1 sm:px-6 py-1 sm:py-4 bg-slate-900 text-white w-fit border border-slate-700 rounded-md sm:rounded-2xl bottom-31 sm:bottom-36 -left-4 sm:-left-7">
-                                    {member.specialty}
+                                    {member.bio}
                                 </p>
 
                                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-center gap-2 sm:gap-8 mt-5">

@@ -89,13 +89,8 @@ export default function FeaturesSection() {
     return (
         <div
             ref={featuredRef}
-            className="features relative min-h-screen bg-linear-to-b from-black via-slate-950 to-slate-900 px-6 overflow-hidden"
+            className="features relative min-h-screen bg-slate-950 px-6 overflow-hidden"
         >
-            <div className="absolute inset-0 opacity-20">
-                <div className="absolute top-1/3 left-1/4 w-125 h-125 bg-cyan-500/20 rounded-full blur-[150px] animate-pulse" />
-                <div className="absolute bottom-1/3 right-1/4 w-100 h-100 bg-purple-500/20 rounded-full blur-[150px] animate-pulse" style={{ animationDelay: "1.5s" }} />
-            </div>
-
             <div className="relative z-10 max-w-7xl mx-auto">
                 <div className="features-heading text-center mb-16 space-y-4">
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -166,7 +161,6 @@ export default function FeaturesSection() {
                 </div>
             </div>
 
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-linear-to-t from-slate-900 to-transparent pointer-events-none" />
         </div>
     );
 }

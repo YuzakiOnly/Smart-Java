@@ -108,7 +108,7 @@ export default function Hero() {
   return (
     <section
       ref={sectionRef}
-      className="relative h-screen flex items-center justify-center overflow-hidden bg-black"
+      className="relative h-screen flex items-center justify-center overflow-hidden bg-slate-950"
     >
       <div className="hero-video-bg absolute inset-0">
         <video
@@ -178,8 +178,6 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-
-      <div className="absolute inset-0 shadow-[inset_0_0_100px_rgba(0,0,0,0.5)] pointer-events-none" />
     </section>
   );
 }
